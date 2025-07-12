@@ -1,0 +1,94 @@
+:root{
+
+    /* 
+       lm = light mode
+       dm = dark mode 
+       
+       cards bg = nav bg = footer bg
+    */
+
+
+    /* darks */
+    --clr-dm-cards: hsl(209, 23%, 22%);
+    --clr-dm-bg: hsl(207, 26%, 17%);
+    --clr-lm-text: hsl(200, 15%, 8%);
+
+
+    /* lights */
+    --clr-lm-cards: hsl(0, 0%, 100%);
+    --clr-lm-bg: hsl(0, 0%, 98%);
+    --clr-dm-text: hsl(0, 0%, 100%);
+
+
+    /* other colors */
+    --clr-language: hsla(0, 0%, 100%, 0.642);
+    --clr-shadow-hover: hsl(174, 100%, 50%);
+    --clr-border-hover: hsl(175, 64%, 49%);
+
+
+    /* font families */
+    --ff-body: 'Karla', sans-serif;
+
+
+    /* fonw weights */
+    --fw-language: 300;
+    --fw-body: 400;
+    --fw-headings: 700;
+
+
+    /* font sizes */
+    --fs-language: 13px;
+    --fs-body: 16px;
+    --fs-headings: 22px;
+
+    --margin-left: 100px;
+}
+
+.projects-cata-two{
+    font-size: 30px;
+    font-weight: var(--fw-headings);
+    font-family: var(--ff-headings);
+    margin: 100px auto 150px auto;
+    color: var(--clr-dm-text);
+    position: relative;
+    top: 80px;
+    max-width: 275px;
+    
+}
+
+.one-page-projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+     margin: 200px 50px 0 50px;
+}
+
+
+.one-page-projects .container{
+    min-height: 200px;
+    min-width: 350px;
+    margin: 50px 30px;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden !important;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.img-container img{
+    transition: .5s;
+    height: 100%;
+    width: 100%;
+}
+
+.heading{
+    font-size: 22px;
+    color: var(--clr-dm-text);
+    font-weight: var(--fw-headings);
+    margin-top: 8%;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <script src="https://kit.fontawesome.com/79f38fc46f.js" crossorigin="anonymous"></script>
+
+
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+      emailjs.init("sUhKD6ryLV00tk5-R");
+   })();
+    </script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+   
+    <title>contect me</title>
+</head>
+<body>
+    <nav>
+    
+      <div class="mobs">
+        <img src="../images/other pictures/icon-hamburger.svg" alt="" class="ham mob">
+        <img src="../images/other pictures/icon-close.svg" alt="" class="close mob ">
+      </div>
+
+        <div class="mob-menu menu tran">
+          <ul class="pages">
+            <li><a href="../index.html" class="nav-link">HOME</a></li>
+            <li>
+              <a href="../my portfolio/portfolio.html" class="nav-link"
+                >PORTFOLIO</a
+              >
+            </li>
+            <li>
+              <a href="#" class="nav-link"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+
+          <ul class="links">
+            <li>
+              <a class="github" href="https://github.com/MOHAMMADsvioan"
+                ><img
+                  src="../images/other pictures/git hub white.svg"
+                  alt=""
+                  class="github"
+             ></a>
+            </li>
+            <li>
+              <a href="https://www.frontendmentor.io/profile/MOHAMMADsvioan"
+                ><img
+                  src="../images/other pictures/front end mentor.png"
+                  alt=""
+                  class="mentor"
+             ></a>
+            </li>
+            <li>
+              <a href="https://www.upwork.com/freelancers/~0187cb071eb6feeade"
+                ><img
+                  src="../images/other pictures/upwork.ico"
+                  alt=""
+                  class="upwork"
+             ></a>
+            </li>
+          </ul>
+        </div>
+        </nav>
+
+    <div class="alert hidden">
+        <p>Your message was sent successfully</p>
+    </div>
+
+ <div class="hero">
+
+    <form onsubmit="sendEmail()">
+
+        <div class="input-group">
+            <input type="text" id="name" required>
+            <label for="name">
+                <i class="fa-solid fa-user"></i>
+                Your Name
+            </label>
+        </div>
+
+        <div class="input-group">
+            <input type="email" id="email" required>
+            <label for="email">
+                <i class="fas fa-envelope"></i>
+                Your Email
+            </label>
+        </div>
+
+        <div class="input-group">
+            <textarea id="message" rows="8" required></textarea>
+            <label for="message">
+                <i class="fas fa-comments"></i>
+                Your message
+            </label>
+        </div>
+        <button type="submit" onclick="sendEmail()">
+            <p>SUBMIT</p>
+            <i class="fas fa-papper-plane"></i>
+            <div class="lefted" 
+            onmouseover="lefting()" 
+            onmouseout="unlefting()"></div>
+
+            <div class="righted"
+            onmouseover="righting()" 
+            onmouseout="unrighting()"></div>
+
+            <div id="lefted-row" class="lefted-row hidden"></div>
+            <div id="righted-row" class="righted-row hidden"></div>
+        </button>
+        
+    </form>
+
+
+    <p class="mail">
+  my email is: mohammadalamoor96@gmail.com
+ </p>
+ </div>
+
+ 
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

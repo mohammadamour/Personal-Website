@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+   >
+
+    <link rel="stylesheet" href="main page/css files/important.css">
+
+    <title>personal website</title>
+  </head>
+  <body>
+    <section class="home">
+      <!-- 
+        ======================================
+        ============= navigation bar =========
+        ======================================
+       -->
+      <nav>
+      <div class="mobs">
+        <img src="images/other pictures/icon-hamburger.svg" alt="" class="ham mob">
+        <img src="images/other pictures/icon-close.svg" alt="" class="close mob hidden">
+      </div>
+
+        <div class="mob-menu menu tran">
+          <ul class="pages">
+            <li><a href="#" class="nav-link">HOME</a></li>
+            <li>
+              <a href="my portfolio/portfolio.html" class="nav-link"
+                >PORTFOLIO</a
+              >
+            </li>
+            <li>
+              <a href="contect form/contect.html" class="nav-link"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+
+          <ul class="links">
+            <li>
+              <a class="github" href="https://github.com/MOHAMMADsvioan"
+                ><img
+                  src="images/other pictures/github.ico"
+                  alt=""
+                  class="github"
+             ></a>
+            </li>
+            <li>
+              <a href="https://www.frontendmentor.io/profile/MOHAMMADsvioan"
+                ><img
+                  src="images/other pictures/front end mentor.png"
+                  alt=""
+                  class="mentor"
+             ></a>
+            </li>
+            <li>
+              <a href="https://www.upwork.com/freelancers/~0187cb071eb6feeade"
+                ><img
+                  src="images/other pictures/upwork.ico"
+                  alt=""
+                  class="upwork"
+             ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- 
+        ======================================
+        ============= home page =========
+        ======================================
+       -->
+
+      <div class="hero-section">
+        <div class="main-text">
+          <h1>Mohammad Altayb</h1>
+          <h3 class="role">Front-End Developer</h3>
+          <p>
+            From stunning landing pages to interactive web apps, I have the
+            front-end development skills to make your project stand out. Let my
+            expertise in HTML, CSS, and JavaScript bring your vision to life
+            today.
+          </p>
+        </div>
+
+        <img
+          src="images/other pictures/me-white.jpg"
+          alt=""
+          class="main-img desk"
+       >
+
+       <img
+          src="images/other pictures/me-white-mob.jpg"
+          alt=""
+          class="main-img mob"
+       >
+      </div>
+    </section>
+
+    <!-- 
+        ======================================
+        ============= about me section =========
+        ======================================
+       -->
+
+    <main>
+      <section class="about">
+        <img src="images/other pictures/me-red.jpg" alt="" class="sec-img desk">
+
+        <div class="about-text">
+          <h2 class="about-heading">About me</h2>
+          <div class="desc">
+            <p>
+              Hi i'm mohammad. I'm a dedicated web developer with a passion for
+              building exceptional web experiences. With a commitment to
+              excellence, I can work as many hours as required to ensure the
+              success of your project.
+            </p>
+            <p>
+              My portfolio showcases several landing page projects that I've
+              built. I pride myself on providing high-quality work within
+              budget, and I'm always excited to take on new and challenging
+              projects.
+            </p>
+            <p>
+              I'm eager to collaborate with clients from around the world. Let's
+              work together to bring your web development ideas to life. Contact
+              me today to discuss your project and how I can help.
+            </p>
+          </div>
+
+          <button class="show-porto">
+            <div>
+              <div class="before-porto"></div>
+              <a 
+              href="my portfolio/portfolio.html"
+              class="porto-a"
+              onmouseover = "borderOnPorto()"
+              onmouseout = "borderOutPorto()"
+              >Show Portfolio</a>
+              <div class="border border-top"></div>
+              <div class="border border-right"></div>
+              <div class="border border-bottom"></div>
+              <div class="border border-left"></div>
+            </div>
+          </button>
+        </div>
+      </section>
+
+      <!-- 
+        ============================================
+        =========== recent projects section ========
+        ============================================
+       -->
+
+      <section class="projects">
+        <h2 class="recent">Recent projects</h2>
+
+        
+        <div class="containers">
+           <div class="slide-track">
+
+            
+
+          <!-- ============================================ -->
+
+
+          
+
+            <div class="container">
+            <div
+              class="preview"
+              onmouseover = "projectDetailesOn1()"
+              onmouseout = "projectDetailesOut1()"
+            >
+              <img
+                src="images/landing pages designs/desktop preview desgins/marketing agency.jpg"
+                alt="an image of Agency landing page challenged by front end mentor"
+                class="project-img"
+             >
+              <ul class="scaled translated">
+                <li>
+                  <a href="https://github.com/MOHAMMADsvioan/Agency-landing-page">
+                    <img
+                  src="images/other pictures/github.ico"
+                  class="github-repo"
+                  alt=""
+               >
+                  </a>
+                </li>
+                <li>
+                  <a href="https://mohammadsvioan.github.io/Agency-landing-page/">
+                    <img
+                  src="images/other pictures/website.svg"
+                  class="website"
+                  alt=""
+               >
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <h4>Agency landing page</h4>
+          </div>
+          
+
+          <!-- ============================================ -->
+
+
+             <div class="container">
+            <div
+              class="preview"
+              onmouseover = "projectDetailesOn2()"
+              onmouseout = "projectDetailesOut2()"
+            >
+              <img
+                src="images/landing pages designs/desktop preview desgins/space.jpg"
+                alt="an image of space tourism website challenged by front end mentor"
+                class="project-img"
+             >
+              <ul class="scaled translated">
+                <li>
+                  <a href="https://github.com/MOHAMMADsvioan/space-tourism-website">
+                    <img
+                  src="images/other pictures/github.ico"
+                  class="github-repo"
+                  alt=""
+               >
+                  </a>
+                </li>
+                <li>
+                  <a href="https://mohammadsvioan.github.io/space-tourism-website/">
+                    <img
+                  src="images/other pictures/website.svg"
+                  class="website"
+                  alt=""
+               >
+                  </a>
+                </li>
+              </div>
+            <h4>space tourism website</h4>
+            </div>
+
+
+        
+          <!-- ============================================ -->
+
+
+          <div class="container">
+            <div
+              class="preview"
+              onmouseover = "projectDetailesOn3()"
+              onmouseout = "projectDetailesOut3()"
+            >
+              <img
+                src="images/landing pages designs/desktop preview desgins/manage landing page.jpg"
+                alt="an image of manage landing page challenged by front end mentor"
+                class="project-img"
+             >
+              <ul class="scaled translated">
+                <li>
+                  <a href="https://github.com/MOHAMMADsvioan/manage-landing-page">
+                    <img
+                  src="images/other pictures/github.ico"
+                  class="github-repo"
+                  alt=""
+               >
+                  </a>
+                </li>
+               <li>
+                <a href="https://mohammadsvioan.github.io/manage-landing-page/">
+                   <img
+                  src="images/other pictures/website.svg"
+                  class="website"
+                  alt=""
+               >
+                </a>
+               </li>
+              </ul>
+            </div>
+            <h4>manage landing page</h4>
+          </div>
+
+          <!-- ============================================ -->
+
+          <div class="container">
+            <div
+              class="preview"
+              onmouseover = "projectDetailesOn4()"
+              onmouseout = "projectDetailesOut4()"
+            >
+              <img
+                src="images/landing pages designs/desktop preview desgins/real estate agency.jpg"
+                alt="an image of Dwelling landing page"
+                class="project-img"
+             >
+              <ul class="scaled translated">
+                <li>
+                  <a href="https://github.com/MOHAMMADsvioan/Dwelling-landing-page">
+                    <img
+                  src="images/other pictures/github.ico"
+                  class="github-repo"
+                  alt=""
+               >
+                  </a>
+                </li>
+                <li>
+                  <a href="https://mohammadsvioan.github.io/Dwelling-landing-page/">
+                    <img
+                  src="images/other pictures/website.svg"
+                  class="website"
+                  alt=""
+               >
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <h4>Dwelling landing page</h4>
+          </div>
+
+          <!-- ============================================ -->
+
+
+          <div class="container">
+            <div
+              class="preview"
+              onmouseover = "projectDetailesOn5()"
+              onmouseout = "projectDetailesOut5()"
+            >
+              <img
+                src="images/landing pages designs/desktop preview desgins/sunnyside landing page.jpg"
+                alt="an image of sunnyside landing page challenged by front end mentor"
+                class="project-img"
+             >
+              <ul class="scaled translated">
+                <li>
+                  <a href="https://github.com/MOHAMMADsvioan/sunnyside-agency-landing-page">
+                    <img
+                  src="images/other pictures/github.ico"
+                  class="github-repo"
+                  alt=""
+               >
+                  </a>
+                </li>
+                <li>
+                  <a href="https://mohammadsvioan.github.io/sunnyside-agency-landing-page/">
+                    <img
+                  src="images/other pictures/website.svg"
+                  class="website"
+                  alt=""
+               >
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <h4>sunnyside landing page</h4>
+          </div>
+
+
+
+
+
+          <!-- ============================================ -->
+
+          <!-- the same 5 previous containers, but i need
+          to double them in order for the autoplayer to work -->
+
+          <div class="container">
+            <div
+              class="preview"
+              onmouseover = "projectDetailesOn6()"
+              onmouseout = "projectDetailesOut6()"
+            >
+              <img
+                src="images/landing pages designs/desktop preview desgins/marketing agency.jpg"
+                alt="an image of Agency landing page challenged by front end mentor"
+                class="project-img"
+             >
+              <ul class="scaled translated">
+                <li>
+                  <a href="https://github.com/MOHAMMADsvioan/Agency-landing-page">
+                    <img
+                  src="images/other pictures/github.ico"
+                  class="github-repo"
+                  alt=""
+               >
+                  </a>
+                </li>
+                <li>
+                  <a href="https://mohammadsvioan.github.io/Agency-landing-page/">
+                    <img
+                  src="images/other pictures/website.svg"
+                  class="website"
+                  alt=""
+               >
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <h4>Agency landing page</h4>
+          </div>
+
+          <!-- ============================================ -->
+
+
+          
+
+           <div class="container">
+            <div
+              class="preview"
+              onmouseover = "projectDetailesOn7()"
+              onmouseout = "projectDetailesOut7()"
+            >
+              <img
+                src="images/landing pages designs/desktop preview desgins/space.jpg"
+                alt="an image of space tourism website challenged by front end mentor"
+                class="project-img"
+             >
+              <ul class="scaled translated">
+                <li>
+                  <a href="https://github.com/MOHAMMADsvioan/space-tourism-website">
+                    <img
+                  src="images/other pictures/github.ico"
+                  class="github-repo"
+                  alt=""
+               >
+                  </a>
+                </li>
+                <li>
+                  <a href="https://mohammadsvioan.github.io/space-tourism-website/">
+                    <img
+                  src="images/other pictures/website.svg"
+                  class="website"
+                  alt=""
+               >
+                  </a>
+                </li>
+              </div>
+            <h4>space tourism website</h4>
+            </div>
+
+        
+          <!-- ============================================ -->
+
+
+          <div class="container">
+            <div
+              class="preview"
+              onmouseover = "projectDetailesOn8()"
+              onmouseout = "projectDetailesOut8()"
+            >
+              <img
+                src="images/landing pages designs/desktop preview desgins/manage landing page.jpg"
+                alt="an image of manage landing page challenged by front end mentor"
+                class="project-img"
+             >
+              <ul class="scaled translated">
+                <li>
+                  <a href="https://github.com/MOHAMMADsvioan/manage-landing-page">
+                    <img
+                  src="images/other pictures/github.ico"
+                  class="github-repo"
+                  alt=""
+               >
+                  </a>
+                </li>
+               <li>
+                <a href="https://mohammadsvioan.github.io/manage-landing-page/">
+                   <img
+                  src="images/other pictures/website.svg"
+                  class="website"
+                  alt=""
+               >
+                </a>
+               </li>
+              </ul>
+            </div>
+            <h4>manage landing page</h4>
+          </div>
+
+          <!-- ============================================ -->
+
+
+          <div class="container">
+            <div
+              class="preview"
+              onmouseover = "projectDetailesOn9()"
+              onmouseout = "projectDetailesOut9()"
+            >
+              <img
+                src="images/landing pages designs/desktop preview desgins/real estate agency.jpg"
+                alt="an image of Dwelling landing page challenged by front end mentor"
+                class="project-img"
+             >
+              <ul class="scaled translated">
+                <li>
+                  <a href="https://github.com/MOHAMMADsvioan/Dwelling-landing-page">
+                    <img
+                  src="images/other pictures/github.ico"
+                  class="github-repo"
+                  alt=""
+               >
+                  </a>
+                </li>
+                <li>
+                  <a href="https://mohammadsvioan.github.io/Dwelling-landing-page/">
+                    <img
+                  src="images/other pictures/website.svg"
+                  class="website"
+                  alt=""
+               >
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <h4>Dwelling landing page</h4>
+          </div>
+
+          <!-- ============================================ -->
+
+
+          <div class="container">
+            <div
+              class="preview"
+              onmouseover = "projectDetailesOn10()"
+              onmouseout = "projectDetailesOut10()"
+            >
+              <img
+                src="images/landing pages designs/desktop preview desgins/sunnyside landing page.jpg"
+                alt="an image of sunnyside landing page challenged by front end mentor"
+                class="project-img"
+             >
+              <ul class="scaled translated">
+                <li>
+                  <a href="https://github.com/MOHAMMADsvioan/sunnyside-agency-landing-page">
+                    <img
+                  src="images/other pictures/github.ico"
+                  class="github-repo"
+                  alt=""
+               >
+                  </a>
+                </li>
+                <li>
+                  <a href="https://mohammadsvioan.github.io/sunnyside-agency-landing-page/">
+                    <img
+                  src="images/other pictures/website.svg"
+                  class="website"
+                  alt=""
+               >
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <h4>sunnyside landing page</h4>
+          </div>
+
+
+
+
+
+          <!-- ============================================ -->
+
+
+          
+           </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="content">
+        
+        <div class="h2s">
+          <div class="contact">
+          <div class="before-contact"></div>
+          <h2>
+        <a 
+        onmouseover = "borderOnContact()"
+        onmouseout = "borderOutContact()"
+        href="contect form/contect.html"
+         class="contact-h2">Contact Me</a>
+      </h2>
+          <p>mohammadalamoor96@gmail.com</p>
+          <div class="border border-top"></div>
+          <div class="border border-right"></div>
+          <div class="border border-bottom"></div>
+          <div class="border border-left"></div>
+        </div>
+
+        <div class="work">
+          <div class="before-work"></div>
+          <h2 
+          >
+        <a 
+        onmouseover = "borderOnWork()"
+        onmouseout = "borderOutWork()"
+        href="my portfolio/portfolio.html"
+        class="work-h2">See My Work</a>
+      </h2>
+          <div class="border border-top"></div>
+          <div class="border border-right"></div>
+          <div class="border border-bottom"></div>
+          <div class="border border-left"></div>
+        </div>
+        </div>
+
+        <ul class="media">
+          <li><img src="images/other pictures/git hub white.svg" alt="" class="media-link"></li>
+          <li><img src="images/other pictures/upwork.ico" alt="" class="media-link upwork"></li>
+          <li><img src="images/other pictures/front end mentor.png" alt="" class="media-link"></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="main page/main.js"></script>
+  </body>
+</html>
+
+
+<!-- https://github.com/MOHAMMADsvioan/Dwelling-landing-page -->
+<!-- https://github.com/MOHAMMADsvioan/Agency-landing-page -->
+
+
+<!-- https://mohammadsvioan.github.io/Dwelling-landing-page/ -->
+<!-- https://mohammadsvioan.github.io/Agency-landing-page/ -->

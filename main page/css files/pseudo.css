@@ -1,0 +1,40 @@
+/* 
+===================================
+========== navbar ==============
+===================================
+*/
+
+
+.pages li a:hover{
+    color: hsl(0, 1%, 38%);
+    letter-spacing: 2px;
+}
+
+.pages li a::after{
+    content: "";
+    width: 0%;
+    position: absolute;
+    left: 0;
+    transition: .3s;
+    top: 25px;
+    height: 2px;
+    background-color: var(--clr-black);
+}
+
+.pages li a:hover::after{
+    width: 100%;
+}
+
+.links li a img:hover{
+    transition: .3s;
+    transform: translateY(-15px) scale(1.17);
+}
+
+.show-porto:hover div a{ 
+    color: var(--clr-black);
+    letter-spacing: 3px;
+}
+
+.show-porto:hover::before{
+    width: 100%;
+}

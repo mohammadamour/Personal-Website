@@ -1,0 +1,131 @@
+.home {
+  height: 700px;
+  padding: 0 var(--margin-left) 100px var(--margin-left);
+  background-color: var(--clr-white);
+  position: relative;
+}
+
+
+/* 
+===================================
+========== navigation =============
+===================================
+*/
+
+nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px var(--margin-left);
+  position: absolute;
+  top: 0;
+  align-items: center;
+  left: 0;
+  z-index: 5;
+  transition: .5s;
+}
+
+.pages{
+  width: 265px;
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.pages li{
+  margin: 0 0px;
+  max-width: 90px;
+}
+
+.pages li a {
+  color: var(--clr-black);
+  text-transform: uppercase;
+  transition: 0.3s;
+  cursor: pointer;
+  font-weight: 400;
+  position: relative;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.links li {
+  margin: 0 7.5px !important;
+  transition: 0.5s;
+  border-radius: 50%;
+}
+
+.links li a img {
+  transition: 0.5s;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.pages,
+.links {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.github{
+  filter: 
+  invert(93%) 
+  sepia(72%) 
+  saturate(0%) 
+  hue-rotate(74deg) 
+  brightness(108%) 
+  contrast(101%) !important;
+}
+
+.upwork{
+  display: none;
+}
+
+/* 
+===================================
+========== main page ==============
+===================================
+*/
+
+.hero-section{
+  display: flex;
+
+}
+
+.main-img {
+  margin: 240px 0 0 0;
+  height: 500px;
+  position: absolute;
+  bottom: 100px;
+  right: 225px;
+}
+
+.main-text {
+  max-width: 500px;
+  margin: 240px 200px 0 0;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: var(--clr-black);
+  font-family: var(--ff-headings);
+}
+
+.role {
+  color: hsl(0, 6%, 61%);
+  font-size: 22px;
+  margin: 8px 0;
+}
+
+.main-text p {
+  font-size: 16px;
+  color: var(--clr-black);
+  max-width: 400px;
+  font-weight: 300;
+}
